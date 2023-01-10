@@ -1,9 +1,9 @@
 import React from 'react'
 import "../components/Global.css"
-
+import Slider from '../components/Slider';
 export function Home() {
   return (
-    <div>Home</div>
+    <div> <Slider /> </div>
   )
 }
 export default Home;

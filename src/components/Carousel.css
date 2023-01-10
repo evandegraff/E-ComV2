@@ -1,0 +1,38 @@
+.carousel {
+    overflow: hidden;
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+  }
+  
+  .carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+  }
+/* BUTTONS */
+
+
+.indicators {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .indicators > button {
+    margin: 5px;
+  }
+  
+  .indicators > button.active {
+    background-color: red;
+    color: #fff;
+  }
+  
+/* We need to hide the overflow content inside in order to show the active item only. ln 2
+ln 6. keeps item in 1 line so they dont break into a new line
+ln 7. adds transition for div.inner so it will animate a change of active item
+ln. 11--16 styling most imporant ln is the display on ln 10) */

@@ -1,8 +1,10 @@
 import { Link, Route, Routes } from "react-router-dom";
-
 import { Home } from "./pages/Home";
-import { Products }from "./pages/Products";
+import  Products from "./pages/Products";
 import { Contact } from "./pages/Contact";
+import carousel, { CarouselItem } from "./components/Slider";
+import Carousel from "./components/Slider";
+
 function App() {
   return (
     <>
@@ -22,9 +24,11 @@ function App() {
         </ul>
         </div>
       </nav>
+
+
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/Products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
