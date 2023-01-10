@@ -3,6 +3,7 @@ import "../components/Contact.css"
 import "../components/Global.css"
 export function Contact() {
         return (
+          
           <div className="container">
             <form action="action_page.php">
               <label htmlFor="fname">First Name</label>
