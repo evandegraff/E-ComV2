@@ -27,11 +27,11 @@ const Home = () =>  {
                 className="product-cover"
                 alt="Asus PC"
               />
-              <button className="card-btn">Add To Cart</button>
+              <button className="card-btn"> </button>
             </div>
             <div className="product-info">
-              <h2 className="product-brand">Asus - ROG Gaming Desktop</h2>
-              <span className="price">$1,199.99</span>
+              <h2 className="product-brand">The Best Products<Products></Products></h2>
+              <span className="price"></span>
             </div>
           </div>
           <div className="product-card">
@@ -41,11 +41,11 @@ const Home = () =>  {
                 className="product-cover"
                 alt="CLX PC"
               />
-              <button className="card-btn">Add To Cart</button>
+              <button className="card-btn"></button>
             </div>
             <div className="product-info">
-              <h2 className="product-brand">CLX - SET Gaming Desktop</h2>
-              <span className="price">$2,019.99</span>
+              <h2 className="product-brand">To start your music career</h2>
+              <span className="price"></span>
             </div>
           </div>
           <div className="product-card">
@@ -55,7 +55,7 @@ const Home = () =>  {
                 className="product-cover"
                 alt="iBuyPower Y60 PC"
               />
-              <button className="card-btn">Add To Cart</button>
+              <button className="card-btn"></button>
             </div>
           </div> 
           <div className="product-card">
@@ -75,7 +75,7 @@ const Home = () =>  {
                 className="product-cover"
                 alt="iBuyPower Y60 PC"
               />
-              <button className="card-btn">Add To Cart</button>
+              <button className="card-btn"></button>
             </div>
           </div> 
           <div className="product-card">
@@ -85,7 +85,7 @@ const Home = () =>  {
                 className="product-cover"
                 alt="iBuyPower Y60 PC"
               />
-              <button className="card-btn">Add To Cart</button>
+              <button className="card-btn"></button>
             </div>
           </div> 
         </div>
